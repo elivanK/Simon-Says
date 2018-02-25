@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A840CC1F28D09400ACC967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A840CB1F28D09400ACC967 /* AppDelegate.swift */; };
+		D5A840D11F28D09500ACC967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A840CF1F28D09500ACC967 /* Main.storyboard */; };
+		D5A840D31F28D09500ACC967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A840D21F28D09500ACC967 /* Assets.xcassets */; };
+		D5A840D61F28D09500ACC967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A840D41F28D09500ACC967 /* LaunchScreen.storyboard */; };
+		D5A840E11F28D09500ACC967 /* SensoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A840E01F28D09500ACC967 /* SensoTests.swift */; };
+		D5A840EC1F28D09500ACC967 /* SensoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A840EB1F28D09500ACC967 /* SensoUITests.swift */; };
+		D5A840FB1F28D0EC00ACC967 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A840FA1F28D0EC00ACC967 /* AVFoundation.framework */; };
+		D5A840FD1F28D10900ACC967 /* SensoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A840FC1F28D10900ACC967 /* SensoVC.swift */; };
+		D5A841021F28D15F00ACC967 /* s1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5A840FE1F28D15F00ACC967 /* s1.mp3 */; };
+		D5A841031F28D15F00ACC967 /* s2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5A840FF1F28D15F00ACC967 /* s2.mp3 */; };
+		D5A841041F28D15F00ACC967 /* s3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5A841001F28D15F00ACC967 /* s3.mp3 */; };
+		D5A841051F28D15F00ACC967 /* s4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D5A841011F28D15F00ACC967 /* s4.mp3 */; };
+		D5A841081F28D1CA00ACC967 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A841071F28D1CA00ACC967 /* startButton.png */; };
+		D5A8410B1F28D20800ACC967 /* screenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A8410A1F28D20800ACC967 /* screenShot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A840DD1F28D09500ACC967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A840C01F28D09400ACC967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A840C71F28D09400ACC967;
+			remoteInfo = Senso;
+		};
+		D5A840E81F28D09500ACC967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A840C01F28D09400ACC967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A840C71F28D09400ACC967;
+			remoteInfo = Senso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5A840C81F28D09400ACC967 /* Senso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Senso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A840CB1F28D09400ACC967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5A840D01F28D09500ACC967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5A840D21F28D09500ACC967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A840D51F28D09500ACC967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5A840D71F28D09500ACC967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A840DC1F28D09500ACC967 /* SensoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A840E01F28D09500ACC967 /* SensoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoTests.swift; sourceTree = "<group>"; };
+		D5A840E21F28D09500ACC967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A840E71F28D09500ACC967 /* SensoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A840EB1F28D09500ACC967 /* SensoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoUITests.swift; sourceTree = "<group>"; };
+		D5A840ED1F28D09500ACC967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5A840FA1F28D0EC00ACC967 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D5A840FC1F28D10900ACC967 /* SensoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensoVC.swift; sourceTree = "<group>"; };
+		D5A840FE1F28D15F00ACC967 /* s1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s1.mp3; sourceTree = "<group>"; };
+		D5A840FF1F28D15F00ACC967 /* s2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s2.mp3; sourceTree = "<group>"; };
+		D5A841001F28D15F00ACC967 /* s3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s3.mp3; sourceTree = "<group>"; };
+		D5A841011F28D15F00ACC967 /* s4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s4.mp3; sourceTree = "<group>"; };
+		D5A841071F28D1CA00ACC967 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		D5A8410A1F28D20800ACC967 /* screenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A840C51F28D09400ACC967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A840FB1F28D0EC00ACC967 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840D91F28D09500ACC967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840E41F28D09500ACC967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A840BF1F28D09400ACC967 = {
+			isa = PBXGroup;
+			children = (
+				D5A840FC1F28D10900ACC967 /* SensoVC.swift */,
+				D5A840CA1F28D09400ACC967 /* Senso */,
+				D5A840DF1F28D09500ACC967 /* SensoTests */,
+				D5A840EA1F28D09500ACC967 /* SensoUITests */,
+				D5A840C91F28D09400ACC967 /* Products */,
+				D5A840F91F28D0EC00ACC967 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A840C91F28D09400ACC967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A840C81F28D09400ACC967 /* Senso.app */,
+				D5A840DC1F28D09500ACC967 /* SensoTests.xctest */,
+				D5A840E71F28D09500ACC967 /* SensoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A840CA1F28D09400ACC967 /* Senso */ = {
+			isa = PBXGroup;
+			children = (
+				D5A841061F28D16600ACC967 /* mp3 */,
+				D5A840CB1F28D09400ACC967 /* AppDelegate.swift */,
+				D5A840CF1F28D09500ACC967 /* Main.storyboard */,
+				D5A840D21F28D09500ACC967 /* Assets.xcassets */,
+				D5A840D41F28D09500ACC967 /* LaunchScreen.storyboard */,
+				D5A840D71F28D09500ACC967 /* Info.plist */,
+			);
+			path = Senso;
+			sourceTree = "<group>";
+		};
+		D5A840DF1F28D09500ACC967 /* SensoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A840E01F28D09500ACC967 /* SensoTests.swift */,
+				D5A840E21F28D09500ACC967 /* Info.plist */,
+			);
+			path = SensoTests;
+			sourceTree = "<group>";
+		};
+		D5A840EA1F28D09500ACC967 /* SensoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A840EB1F28D09500ACC967 /* SensoUITests.swift */,
+				D5A840ED1F28D09500ACC967 /* Info.plist */,
+			);
+			path = SensoUITests;
+			sourceTree = "<group>";
+		};
+		D5A840F91F28D0EC00ACC967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A840FA1F28D0EC00ACC967 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A841061F28D16600ACC967 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				D5A841091F28D1D200ACC967 /* img */,
+				D5A840FE1F28D15F00ACC967 /* s1.mp3 */,
+				D5A840FF1F28D15F00ACC967 /* s2.mp3 */,
+				D5A841001F28D15F00ACC967 /* s3.mp3 */,
+				D5A841011F28D15F00ACC967 /* s4.mp3 */,
+			);
+			name = mp3;
+			sourceTree = "<group>";
+		};
+		D5A841091F28D1D200ACC967 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D5A841071F28D1CA00ACC967 /* startButton.png */,
+				D5A8410A1F28D20800ACC967 /* screenShot.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A840C71F28D09400ACC967 /* Senso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A840F01F28D09500ACC967 /* Build configuration list for PBXNativeTarget "Senso" */;
+			buildPhases = (
+				D5A840C41F28D09400ACC967 /* Sources */,
+				D5A840C51F28D09400ACC967 /* Frameworks */,
+				D5A840C61F28D09400ACC967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Senso;
+			productName = Senso;
+			productReference = D5A840C81F28D09400ACC967 /* Senso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A840DB1F28D09500ACC967 /* SensoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A840F31F28D09500ACC967 /* Build configuration list for PBXNativeTarget "SensoTests" */;
+			buildPhases = (
+				D5A840D81F28D09500ACC967 /* Sources */,
+				D5A840D91F28D09500ACC967 /* Frameworks */,
+				D5A840DA1F28D09500ACC967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A840DE1F28D09500ACC967 /* PBXTargetDependency */,
+			);
+			name = SensoTests;
+			productName = SensoTests;
+			productReference = D5A840DC1F28D09500ACC967 /* SensoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A840E61F28D09500ACC967 /* SensoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A840F61F28D09500ACC967 /* Build configuration list for PBXNativeTarget "SensoUITests" */;
+			buildPhases = (
+				D5A840E31F28D09500ACC967 /* Sources */,
+				D5A840E41F28D09500ACC967 /* Frameworks */,
+				D5A840E51F28D09500ACC967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A840E91F28D09500ACC967 /* PBXTargetDependency */,
+			);
+			name = SensoUITests;
+			productName = SensoUITests;
+			productReference = D5A840E71F28D09500ACC967 /* SensoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A840C01F28D09400ACC967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					D5A840C71F28D09400ACC967 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5A840DB1F28D09500ACC967 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5A840C71F28D09400ACC967;
+					};
+					D5A840E61F28D09500ACC967 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5A840C71F28D09400ACC967;
+					};
+				};
+			};
+			buildConfigurationList = D5A840C31F28D09400ACC967 /* Build configuration list for PBXProject "Senso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A840BF1F28D09400ACC967;
+			productRefGroup = D5A840C91F28D09400ACC967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A840C71F28D09400ACC967 /* Senso */,
+				D5A840DB1F28D09500ACC967 /* SensoTests */,
+				D5A840E61F28D09500ACC967 /* SensoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A840C61F28D09400ACC967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A841031F28D15F00ACC967 /* s2.mp3 in Resources */,
+				D5A840D61F28D09500ACC967 /* LaunchScreen.storyboard in Resources */,
+				D5A841021F28D15F00ACC967 /* s1.mp3 in Resources */,
+				D5A841051F28D15F00ACC967 /* s4.mp3 in Resources */,
+				D5A8410B1F28D20800ACC967 /* screenShot.png in Resources */,
+				D5A841081F28D1CA00ACC967 /* startButton.png in Resources */,
+				D5A841041F28D15F00ACC967 /* s3.mp3 in Resources */,
+				D5A840D31F28D09500ACC967 /* Assets.xcassets in Resources */,
+				D5A840D11F28D09500ACC967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840DA1F28D09500ACC967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840E51F28D09500ACC967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A840C41F28D09400ACC967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A840CC1F28D09400ACC967 /* AppDelegate.swift in Sources */,
+				D5A840FD1F28D10900ACC967 /* SensoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840D81F28D09500ACC967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A840E11F28D09500ACC967 /* SensoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A840E31F28D09500ACC967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A840EC1F28D09500ACC967 /* SensoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A840DE1F28D09500ACC967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A840C71F28D09400ACC967 /* Senso */;
+			targetProxy = D5A840DD1F28D09500ACC967 /* PBXContainerItemProxy */;
+		};
+		D5A840E91F28D09500ACC967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A840C71F28D09400ACC967 /* Senso */;
+			targetProxy = D5A840E81F28D09500ACC967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5A840CF1F28D09500ACC967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A840D01F28D09500ACC967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5A840D41F28D09500ACC967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5A840D51F28D09500ACC967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5A840EE1F28D09500ACC967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A840EF1F28D09500ACC967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A840F11F28D09500ACC967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Senso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.Senso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5A840F21F28D09500ACC967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Senso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.Senso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5A840F41F28D09500ACC967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.SensoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senso.app/Senso";
+			};
+			name = Debug;
+		};
+		D5A840F51F28D09500ACC967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SensoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.SensoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Senso.app/Senso";
+			};
+			name = Release;
+		};
+		D5A840F71F28D09500ACC967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SensoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.SensoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Senso;
+			};
+			name = Debug;
+		};
+		D5A840F81F28D09500ACC967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SensoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cimdata.SensoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Senso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A840C31F28D09400ACC967 /* Build configuration list for PBXProject "Senso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A840EE1F28D09500ACC967 /* Debug */,
+				D5A840EF1F28D09500ACC967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A840F01F28D09500ACC967 /* Build configuration list for PBXNativeTarget "Senso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A840F11F28D09500ACC967 /* Debug */,
+				D5A840F21F28D09500ACC967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5A840F31F28D09500ACC967 /* Build configuration list for PBXNativeTarget "SensoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A840F41F28D09500ACC967 /* Debug */,
+				D5A840F51F28D09500ACC967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5A840F61F28D09500ACC967 /* Build configuration list for PBXNativeTarget "SensoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A840F71F28D09500ACC967 /* Debug */,
+				D5A840F81F28D09500ACC967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A840C01F28D09400ACC967 /* Project object */;
+}
